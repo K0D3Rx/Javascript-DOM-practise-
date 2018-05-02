@@ -64,11 +64,11 @@ listUL.addEventListener('click', (event) =>{
 			let li = event.target.parentNode;
 			let nextLi = li.nextElementSibling; 
 			let ul = li.parentNode;
-			if(prevLi){
+			if(nextLi){
 				ul.insertBefore(nextLi,li);  
 			} 
 		  }   
-	   }
+	   } 
 	}  
 		 
 });    
